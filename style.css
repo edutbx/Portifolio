@@ -18,11 +18,24 @@ header {
     color: #fff;
 }
 
+.descricaoEu{
+    font-size: 11pt;
+    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 #perfil-img {
-    width: 410px;
-    height: 410px;
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
     object-fit: cover;
+    transition: 0.5s;
+}
+
+#perfil-img:hover{
+    box-shadow: 0px 10px 10px rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 h1 {
@@ -31,7 +44,12 @@ h1 {
 }
 
 p {
+    padding: 12px;
     font-size: 1.2em;
+}
+
+.pMeu{
+    text-align: justify;
 }
 
 b{
